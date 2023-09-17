@@ -1,0 +1,317 @@
+.logo {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.menu {
+    position: absolute;
+    width: 102.9px;
+    height: 34px;
+    left: 50px;
+    top: 13px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+
+    /* or 160% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.menu-btn {
+    position: absolute;
+    width: 170.7px;
+    height: 60px;
+    right: 0px;
+    top: calc(5% - 60px/2 - 2px);
+
+    /* background: #303030; */
+    border-radius: 3px;
+}
+
+.logo {
+    position: absolute;
+    width: 250px;
+    height: 70px;
+    left: 8px;
+    top: 8px;
+
+}
+
+.horizontalLine {
+    display: block;
+    height: 10px;
+    border: 0;
+    border-top: 6px solid #242424;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.pastpresentTitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 67px;
+
+    /* or 129% */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.1px;
+
+    color: #1E1E1E;
+}
+
+.pastpresentText {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 58px;
+
+    /* or 180% */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.1px;
+
+    color: #1E1E1E;
+}
+
+.studentCard {
+    width: 389.98px;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1));
+}
+
+.studentCardText {
+
+    height: 40px;
+    left: 32px;
+    top: 455.2px;
+
+    background: #FFFFFF;
+}
+
+.studentCardTitle {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24.6541px;
+    line-height: 31px;
+
+    /* or 127% */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.0850141px;
+
+    color: #000000;
+}
+
+.studentCardBody {
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 27px;
+
+    /* or 159% */
+    display: flex;
+    align-items: center;
+    width: 300.36px;
+
+
+    color: #FFFFFF;
+}
+
+.founderText {
+    color: #FFFFFF;
+}
+
+.founderTitle {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 51px;
+    line-height: 67px;
+
+    /* or 132% */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.1px;
+
+    color: #F3F4F4;
+}
+
+.founderQuote {
+    font-family: 'Palace Script MT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 36px;
+
+    margin-top: 70px;
+    margin-bottom: 60px;
+
+    /* or 77% */
+
+
+
+
+    color: #FFFFFF;
+}
+
+.majorCardText {
+    top: 85%;
+}
+
+.majorCardBody {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 27px;
+
+    /* or 159% */
+    display: flex;
+    align-items: center;
+
+    color: #1E1E1E;
+}
+
+.smartclassTitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 51px;
+    line-height: 67px;
+
+    /* or 132% */
+
+    letter-spacing: -0.1px;
+
+    color: #1E1E1E;
+}
+
+.smartclassLabel {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+
+    /* or 159% */
+    letter-spacing: -0.1px;
+
+    color: #1E1E1E;
+}
+
+.smartclassLearnMore {
+    font-weight: 600;
+}
+
+.smartclassImage {
+    width: 490px;
+    height: 400.75px;
+}
+
+.aboutusbody {
+    width: 500px;
+    height: auto;
+}
+
+.founderpic {
+    width: 500px;
+    height: auto;
+}
+
+.pastpresentpic {
+    width: 490px;
+    height: auto;
+}
+
+@media (min-width: 640px) {
+    .smartclassImage {
+        width: 520px;
+        height: 400.75px;
+    }
+}
+
+@media (min-width: 768px) {
+    .smartclassImage {
+        width: 690px;
+        height: 400.75px;
+    }
+}
+
+@media (min-width: 1024px) {}
+
+@media (min-width: 1200px) {
+    .smartclassImage {
+        width: 750.59px;
+        height: 518.75px;
+    }
+
+    .aboutusbody {
+        width: 796px;
+        height: 180px;
+    }
+
+    .founderpic {
+        width: 624px;
+        height: 936px;
+    }
+
+    .pastpresentpic {
+        width: 624px;
+        height: auto;
+    }
+
+    .founderquotevector {
+        left: 4%;
+        top: 85%;
+    }
+
+    .footermenu {
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+}
+
+.smartclassExplore {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 1px;
+}
+
+.smartclassExploreBody {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.smallhorizontalLine {
+    display: block;
+    height: 5px;
+    border: 0;
+    border-top: 1px solid #b8b8b8;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.jeweltitle {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.jewelbody {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+}

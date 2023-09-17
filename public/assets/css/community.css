@@ -1,0 +1,68 @@
+.jewelbody {
+    font-size: 35px;
+    line-height: 58px;
+    color: #1E1E1E;
+    text-align: left;
+    margin-top: 40;
+}
+
+.jewelimgdiv {
+    float: right;
+    /* margin: 50px; */
+    margin-left: 50px;
+    margin-bottom: -10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.jewelquote {
+    top: 50;
+    left: -20;
+}
+
+.jewelimg {
+    width: 600px;
+    height: 600px;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 32px;
+    margin-top: 20px;
+} 
+
+.designation {
+    font-size: 21px;
+}
+
+.passedout {
+    font-size: 17px;
+}
+
+.terenimgdiv {
+    float: left;
+    /* margin: 50px; */
+    margin-right: 50px;
+    margin-bottom: -10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.terenbody {
+    font-size: 35px;
+    line-height: 58px;
+    color: #efefef;
+    text-align: left;
+    margin-top: 0;
+}
+
+.terenimg {
+    width: 600px;
+    height: 600px;
+}
+
+.terenquote {
+    top: 10;
+    left: 1500;
+}
+
